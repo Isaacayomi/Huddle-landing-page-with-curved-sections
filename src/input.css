@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.line-height{
+    line-height: 2.3rem;
+}
+
+.paragraph-line-height{
+    line-height:1.4rem;
+}
+
+.letter-spacing{
+    letter-spacing: 0.05rem;
+}
+
+.custom-bg-1{
+    background-image: url(/images/bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size:4rem;
+    width:100%;
+    padding:2rem;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
