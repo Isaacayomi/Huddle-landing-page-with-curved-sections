@@ -14,13 +14,8 @@
     letter-spacing: 0.05rem;
 }
 
-.custom-bg-1{
-    background-image: url(/images/bg-section-top-mobile-1.svg);
-    background-repeat: no-repeat;
-    background-size:4rem;
-    width:100%;
-    padding:2rem;
+.grow-together-line-height{
+    line-height: 1.25rem;
 }
-
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Poppins', sans-serif; */
