@@ -715,6 +715,10 @@ video {
   gap: 0.65rem;
 }
 
+.gap-\[8rem\] {
+  gap: 8rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -990,12 +994,24 @@ video {
     margin-right: auto;
   }
 
+  .md\:mt-\[0rem\] {
+    margin-top: 0rem;
+  }
+
   .md\:mt-\[1\.2rem\] {
     margin-top: 1.2rem;
   }
 
   .md\:block {
     display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-\[100\%\] {
+    width: 100%;
   }
 
   .md\:w-\[20\%\] {
@@ -1020,6 +1036,14 @@ video {
 
   .md\:w-\[90\%\] {
     width: 90%;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
   }
 
   .md\:py-\[0\.5rem\] {
