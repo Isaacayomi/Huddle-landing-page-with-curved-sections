@@ -615,10 +615,6 @@ video {
   margin-top: 4rem;
 }
 
-.mt-\[5\.3rem\] {
-  margin-top: 5.3rem;
-}
-
 .mt-\[5rem\] {
   margin-top: 5rem;
 }
@@ -715,8 +711,8 @@ video {
   gap: 0.65rem;
 }
 
-.gap-\[8rem\] {
-  gap: 8rem;
+.gap-\[10rem\] {
+  gap: 10rem;
 }
 
 .rounded-full {
@@ -1016,6 +1012,14 @@ video {
 
   .md\:w-\[20\%\] {
     width: 20%;
+  }
+
+  .md\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .md\:w-\[35\%\] {
+    width: 35%;
   }
 
   .md\:w-\[45\%\] {
