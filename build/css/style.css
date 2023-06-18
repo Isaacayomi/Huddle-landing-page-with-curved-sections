@@ -994,6 +994,10 @@ video {
     margin-bottom: 0rem;
   }
 
+  .md\:mt-\[0\] {
+    margin-top: 0;
+  }
+
   .md\:mt-\[0rem\] {
     margin-top: 0rem;
   }
@@ -1081,6 +1085,10 @@ video {
     padding-left: 0.6rem;
   }
 
+  .md\:pt-\[0\] {
+    padding-top: 0;
+  }
+
   .md\:text-\[0\.9rem\] {
     font-size: 0.9rem;
   }
@@ -1099,6 +1107,10 @@ video {
 
   .md\:text-\[2\.3rem\] {
     font-size: 2.3rem;
+  }
+
+  .md\:text-\[2rem\] {
+    font-size: 2rem;
   }
 
   .md\:text-xl {
