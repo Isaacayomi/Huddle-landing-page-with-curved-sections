@@ -1242,6 +1242,10 @@ video {
     gap: 15rem;
   }
 
+  .lg\:gap-\[6rem\] {
+    gap: 6rem;
+  }
+
   .lg\:p-\[0\.8rem\] {
     padding: 0.8rem;
   }
@@ -1249,6 +1253,11 @@ video {
   .lg\:px-\[0\.8rem\] {
     padding-left: 0.8rem;
     padding-right: 0.8rem;
+  }
+
+  .lg\:px-\[1rem\] {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .lg\:px-\[2rem\] {
@@ -1264,6 +1273,10 @@ video {
   .lg\:py-\[1rem\] {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .lg\:pl-\[0\] {
+    padding-left: 0;
   }
 
   .lg\:text-left {
