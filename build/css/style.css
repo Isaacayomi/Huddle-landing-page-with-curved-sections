@@ -1076,6 +1076,10 @@ video {
     justify-content: center;
   }
 
+  .md\:gap-\[0\.8rem\] {
+    gap: 0.8rem;
+  }
+
   .md\:px-\[0\.85rem\] {
     padding-left: 0.85rem;
     padding-right: 0.85rem;
@@ -1123,6 +1127,10 @@ video {
 
   .md\:text-\[1\.2rem\] {
     font-size: 1.2rem;
+  }
+
+  .md\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
   }
 
   .md\:text-\[1\.5rem\] {
