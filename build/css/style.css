@@ -790,11 +790,6 @@ video {
   padding-right: 1rem;
 }
 
-.px-\[8rem\] {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
 .py-\[0\.3rem\] {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
@@ -1243,16 +1238,20 @@ video {
     margin-top: -0.8rem;
   }
 
+  .lg\:mt-\[-3\.5rem\] {
+    margin-top: -3.5rem;
+  }
+
   .lg\:mt-\[-4rem\] {
     margin-top: -4rem;
   }
 
-  .lg\:mt-\[-7rem\] {
-    margin-top: -7rem;
-  }
-
   .lg\:mt-\[5\.5rem\] {
     margin-top: 5.5rem;
+  }
+
+  .lg\:mt-\[5rem\] {
+    margin-top: 5rem;
   }
 
   .lg\:mt-\[8rem\] {
@@ -1356,14 +1355,19 @@ video {
     padding-right: 0.8rem;
   }
 
-  .lg\:px-\[1rem\] {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .lg\:px-\[2rem\] {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:px-\[4rem\] {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .lg\:px-\[5rem\] {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .lg\:py-\[0\.4rem\] {
@@ -1392,6 +1396,10 @@ video {
     font-size: 1.1rem;
   }
 
+  .lg\:text-\[1\.4rem\] {
+    font-size: 1.4rem;
+  }
+
   .lg\:text-\[1\.7rem\] {
     font-size: 1.7rem;
   }
@@ -1402,6 +1410,10 @@ video {
 
   .lg\:text-\[2rem\] {
     font-size: 2rem;
+  }
+
+  .lg\:leading-7 {
+    line-height: 1.75rem;
   }
 
   .lg\:leading-\[1\.5rem\] {
