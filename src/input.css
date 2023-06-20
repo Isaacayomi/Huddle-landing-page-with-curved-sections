@@ -37,3 +37,25 @@
     background-repeat:no-repeat;
     background-size:contain;
 }
+
+    @media screen and (min-width:320px) {
+        .img-none{
+            display:none;
+            height:0;
+            width:0;
+        }    
+    }
+
+    @media screen and (min-width:375px) {
+        .img-none{
+            display:none;
+            height:0;
+            width:0;
+        }    
+    }
+
+    @media screen and (min-width:425px) {
+        .img-none{
+            display:none;
+        }    
+    }

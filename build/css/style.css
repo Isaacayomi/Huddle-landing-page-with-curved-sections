@@ -643,12 +643,24 @@ video {
   display: flex;
 }
 
+.h-\[0\] {
+  height: 0;
+}
+
+.h-\[100\%\] {
+  height: 100%;
+}
+
 .h-\[50px\] {
   height: 50px;
 }
 
 .h-full {
   height: 100%;
+}
+
+.w-\[0\] {
+  width: 0;
 }
 
 .w-\[100\%\] {
@@ -776,6 +788,11 @@ video {
 .px-\[1rem\] {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-\[8rem\] {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .py-\[0\.3rem\] {
@@ -992,6 +1009,28 @@ video {
   background-size:contain;
 }
 
+@media screen and (min-width:320px) {
+  .img-none{
+    display:none;
+    height:0;
+    width:0;
+  }
+}
+
+@media screen and (min-width:375px) {
+  .img-none{
+    display:none;
+    height:0;
+    width:0;
+  }
+}
+
+@media screen and (min-width:425px) {
+  .img-none{
+    display:none;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:float-right {
     float: right;
@@ -1078,8 +1117,8 @@ video {
     justify-content: center;
   }
 
-  .md\:gap-\[0\.8rem\] {
-    gap: 0.8rem;
+  .md\:gap-\[0\.95rem\] {
+    gap: 0.95rem;
   }
 
   .md\:px-\[0\.85rem\] {
@@ -1196,8 +1235,20 @@ video {
     margin-bottom: 4rem;
   }
 
+  .lg\:ml-\[-2rem\] {
+    margin-left: -2rem;
+  }
+
   .lg\:mt-\[-0\.8rem\] {
     margin-top: -0.8rem;
+  }
+
+  .lg\:mt-\[-4rem\] {
+    margin-top: -4rem;
+  }
+
+  .lg\:mt-\[-7rem\] {
+    margin-top: -7rem;
   }
 
   .lg\:mt-\[5\.5rem\] {
@@ -1208,6 +1259,10 @@ video {
     margin-top: 8rem;
   }
 
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1216,12 +1271,16 @@ video {
     height: 0px;
   }
 
-  .lg\:w-0 {
-    width: 0px;
+  .lg\:h-\[100\%\] {
+    height: 100%;
   }
 
   .lg\:w-\[0\] {
     width: 0;
+  }
+
+  .lg\:w-\[100\%\] {
+    width: 100%;
   }
 
   .lg\:w-\[12\%\] {
@@ -1256,8 +1315,12 @@ video {
     width: 90%;
   }
 
-  .lg\:flex-row {
-    flex-direction: row;
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .lg\:items-center {
@@ -1270,6 +1333,14 @@ video {
 
   .lg\:gap-\[25rem\] {
     gap: 25rem;
+  }
+
+  .lg\:gap-\[3rem\] {
+    gap: 3rem;
+  }
+
+  .lg\:gap-\[5rem\] {
+    gap: 5rem;
   }
 
   .lg\:gap-\[6rem\] {
